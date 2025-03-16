@@ -8,6 +8,6 @@ Basic implementation of Conway's Game of Life using Raylib.
 swift run Conway
 ```
 <video width="320" height="240" controls>
-  <source src="/Assets/video.mov" type="video/quicktime">
+  <source src="https://user-images.githubusercontent.com/vancegillies/SwiftPlayground/raw/main/Assets/video.mp4" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
