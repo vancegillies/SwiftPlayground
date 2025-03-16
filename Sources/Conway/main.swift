@@ -228,7 +228,6 @@ while !WindowShouldClose() {
 
     if IsKeyPressed(82) {  // R
         board.reset()
-        print(controller.camera.target)
     }
 
     board.tick()
