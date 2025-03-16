@@ -7,4 +7,5 @@ Basic implementation of Conway's Game of Life using Raylib.
 ```bash
 swift run Conway
 ```
-https://user-images.githubusercontent.com/vancegillies/SwiftPlayground/raw/main/Assets/video.mp4
+https://user-images.githubusercontent.com/vancegillies/SwiftPlayground/raw/main/Assets/Conway.mp4
+https://github.com/vancegillies/SwiftPlayground/raw/refs/heads/main/Assets/Conway.mp4
