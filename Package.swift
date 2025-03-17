@@ -16,5 +16,12 @@ let package = Package(
             name: "Conway",
             dependencies: ["Raylib"]
         ),
+        .executableTarget(
+            name: "Shaders",
+            dependencies: ["Raylib"],
+            resources: [
+                .copy("Resources")
+            ]
+        ),
     ]
 )
