@@ -18,7 +18,7 @@ func main() {
     let shaderName = CommandLine.arguments[1]
     var time: Float = 0.0
     var window = Vector2(x: 1000.0, y: 1000.0)
-    var shaderResolution: [Float] = [window.x * 2, window.y * 2]
+    var shaderResolution: [Float] = [window.x, window.y]
 
     InitWindow(Int32(window.x), Int32(window.y), "Fullscreen Shader")
     SetWindowState(0x0000_0004)
@@ -41,7 +41,7 @@ func main() {
         time += GetFrameTime()
         window.x = Float(GetScreenWidth())
         window.y = Float(GetScreenHeight())
-        shaderResolution = [window.x * 2, window.y * 2]
+        shaderResolution = [window.x, window.y]
         do {
             try shader.updateUniform("time") { t in
                 SetShaderValue(shader.current, t.location, &time, t.type.typeIndex)

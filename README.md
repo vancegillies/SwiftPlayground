@@ -8,4 +8,13 @@ Basic implementation of Conway's Game of Life using Raylib.
 swift run Conway
 ```
 
-<img src="/Assets/Conway.gif" width="500" alt="Conway's Game of Life">
+<img src="/Assets/Conway.gif" alt="Conway's Game of Life">
+
+
+# 2. Shaders
+Full screen fragment shader playground, with hot reloading and basic CLI
+```bash
+swift run Shaders <name>
+```
+
+<img src="/Assets/Shaders.gif" alt="Shaders">
