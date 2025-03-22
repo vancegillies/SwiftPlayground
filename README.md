@@ -17,4 +17,4 @@ Full screen fragment shader playground, with hot reloading and basic CLI
 swift run Shaders <name>
 ```
 
-<img src="/Assets/Shaders.gif" alt="Shaders">
+<img src="/Assets/Shader.gif" alt="Shaders">
